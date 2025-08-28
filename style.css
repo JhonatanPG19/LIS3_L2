@@ -1,0 +1,85 @@
+/* Selector para el DIV Superior. */
+.grid-container-superior{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 6%;
+    padding-right: 10%;
+}
+/* Selector para el DIV Container de Lenguajes. */
+.grid-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 8px;
+}
+/* Selector para color de texto */
+#div1, #div2, #div3{
+    color: #5939e4;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+/* Selector para titulo y div inferior */
+#divInf, h1{
+    color: #5939e4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Selector para posicion del titulo h1 */
+h1{
+    padding-top: 3%;
+}
+/* Selector div tipo 1 */
+#div1{
+    text-align: right;
+    background-color: #da9fd0;
+    border: 1px solid #a36699;
+    border-radius: 10px;
+}
+/* Selector div tipo 2 */
+#div2{
+    text-align: center;
+    background-color:#add4ba;
+    border: 1px solid #74ae87;
+    border-radius: 10px;
+}
+/* Selector div tipo 3 */
+#div3{
+    text-align: left;
+    background-color:#aec9da;
+    border: 1px solid #6698b8;
+    border-radius: 10px;
+}
+/* Selector div letras negras */
+#divInd{
+    text-align: left;
+    background-color:#aec9da;
+    border: 1px solid #6698b8;
+    border-radius: 10px;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+/* Selector div inferior */
+#divInf{
+    background-color: #e5e6b0;
+    border: 1px solid #b1b179;
+    border-radius: 8px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 5px;
+}
+/* Selector para centrar titulo inferior */
+#h2Inf{
+    text-align: center;
+}
+/* Selector para enlace */
+.mi-enlace {
+    color: #5939e4;
+    font-weight: bold;
+}
+.mi-enlace:hover {
+    color: #9787db;
+}
